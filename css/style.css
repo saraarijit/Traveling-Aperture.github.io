@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{max-width:1140px;margin: auto}
+.sec-2{color: #EEAB2B;font-weight: 800}
+
+
+.navbar-collapse ul li a:hover{border-radius: 10px;background: #FFA500;color: #FFFFFF}
+
+
+/* -----------------------about start------------------------- */
+h2{color: #EEAB2B;font-weight: bold;font-size: 2.3rem}
+h4{color: #EEAB2B;font-weight: 900;font-size: 2.3rem}
+.sec-about{font-size:40px;color: #696666}
+img{display: block;margin: auto;}
+.sec_para{font-size: 18px;text-align: center;color: #594752}
+.sec-botton{display: flex;justify-content: center;align-items: center;}
+
+
+
+/* -----------------------about end------------------------- */
+.jumbo-image{background:url("../images/j2.jpeg") no-repeat;}
+.font-brushType{font-family:'brushtype'!important;}
+/* ------------------------------------------------ */
+/* --------------------client start---------------------------- */
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.collections{text-align: center;padding: 32px}
+h6{color: #EEAB2B;font-weight: bold;font-size: 2.3rem}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;	
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #D1CECE;
+  cursor: pointer;
+  font-size: 18px;
+}
+.btn.active{color: #fff; background-color: #0069d9}
+
+/* ------------------client end------------------------------ */
+
+/* ------------------portfolio start------------------------------ */
+
+h5{color: #EEAB2B;font-weight: bold;font-size: 2.3rem}
+.single-img img{border-radius: 4px}
+.img-area{display: flex;flex-wrap: wrap;flex-direction: row;justify-content: center;align-items: center}
+.single-img{padding: 10px 10px;overflow: hidden;border-radius: 4px}
+.single-img img:hover{transition: 2s;transform: scale(2,2)}
+
+/* ------------------portfolio end------------------------------ */
+
+
+/* ------------------footer start------------------------------ */
+
+.footer{background-color:#010101 ;height: 150px;width: 100%}
+.footer i.fa {color:white;padding: 12px;font-size: 25px}
+.social-icons{margin-top: 2em;margin-left: -3em;}
+.footer i.fa:hover{color: #008ed6}
+.copy_right {color: white;text-transform: capitalize;font-family: 'Source Sans Pro', sans-serif;font-size: 12px}
+
+/* ------------------footer end------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
